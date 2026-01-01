@@ -1,0 +1,20 @@
+{
+  "types": ["Type A", "Type B", "Type C"],
+  "questions": [
+    {
+      "question": "You prefer to spend your weekend:",
+      "options": ["Reading a book", "Going to a party", "Exploring nature"],
+      "scores": [2, 0, 1]
+    },
+    {
+      "question": "When making decisions, you are:",
+      "options": ["Analytical", "Impulsive", "Balanced"],
+      "scores": [2, 0, 1]
+    },
+    {
+      "question": "Your ideal work environment is:",
+      "options": ["Quiet and structured", "Dynamic and social", "Flexible and balanced"],
+      "scores": [2, 0, 1]
+    }
+  ]
+}
