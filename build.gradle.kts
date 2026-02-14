@@ -1,6 +1,7 @@
 plugins {
     id("java")
-    id("application") // <-- Added for gradle run
+    id("application")
+    id("io.github.goooler.shadow") version "8.1.8"
 }
 
 group = "com.copicraftDev"
@@ -11,8 +12,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.code.gson:gson:2.10.1") // <-- Added Gson
-
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
